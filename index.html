@@ -485,7 +485,7 @@ if(cur){
 
 // Countdown
 function tick(){
-  const t=new Date('2026-07-18T18:00:00+08:00'), n=new Date(), d=Math.max(0,t-n);
+  const t=new Date('2026-07-18T11:00:00+08:00'), n=new Date(), d=Math.max(0,t-n);
   document.getElementById('cdD').textContent=String(Math.floor(d/86400000)).padStart(2,'0');
   document.getElementById('cdH').textContent=String(Math.floor(d%86400000/3600000)).padStart(2,'0');
   document.getElementById('cdM').textContent=String(Math.floor(d%3600000/60000)).padStart(2,'0');
